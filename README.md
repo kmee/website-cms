@@ -1,14 +1,15 @@
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/website-cms&target_branch=14.0)
-[![Build Status](https://travis-ci.com/OCA/website-cms.svg?branch=14.0)](https://travis-ci.com/OCA/website-cms)
-[![codecov](https://codecov.io/gh/OCA/website-cms/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/website-cms)
-[![Translation Status](https://translation.odoo-community.org/widgets/website-cms-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/website-cms-14-0/?utm_source=widget)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/website-cms&target_branch=16.0)
+[![Pre-commit Status](https://github.com/OCA/website-cms/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/website-cms/actions/workflows/pre-commit.yml?query=branch%3A16.0)
+[![Build Status](https://github.com/OCA/website-cms/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/website-cms/actions/workflows/test.yml?query=branch%3A16.0)
+[![codecov](https://codecov.io/gh/OCA/website-cms/branch/16.0/graph/badge.svg)](https://codecov.io/gh/OCA/website-cms)
+[![Translation Status](https://translation.odoo-community.org/widgets/website-cms-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/website-cms-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
 # website-cms
 
-TODO: add repo description.
+CMS features for Odoo portal and websites. Ease creation of forms, status message, actions and more.
 
 <!-- /!\ do not modify below this line -->
 
@@ -20,7 +21,16 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[cms_info](cms_info/) | 14.0.1.0.0 |  | A set of basic information needed to expose any kind of record in your CMS.
+[cms_form](cms_form/) | 16.0.1.2.0 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic content type form
+[cms_info](cms_info/) | 16.0.1.2.0 |  | A set of basic information needed to expose any kind of record in your CMS.
+[cms_status_message](cms_status_message/) | 16.0.1.0.1 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic status messages for your CMS system
+
+
+Unported addons
+---------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[cms_form_example](cms_form_example/) | 13.0.1.0.1 (unported) |  | Basic content type form example
 
 [//]: # (end addons)
 
