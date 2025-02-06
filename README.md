@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[cms_form](cms_form/) | 16.0.1.2.0 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic content type form
+[cms_form](cms_form/) | 16.0.1.3.0 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic content type form
 [cms_info](cms_info/) | 16.0.1.2.0 |  | A set of basic information needed to expose any kind of record in your CMS.
 [cms_status_message](cms_status_message/) | 16.0.1.0.1 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic status messages for your CMS system
 
