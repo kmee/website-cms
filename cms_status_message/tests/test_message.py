@@ -70,10 +70,11 @@ class TestMessage(TransactionCase):
         self.assertEqual(msg["msg"], "you cannot remove me!")
 
     def _render(self):
-        return self.env["ir.qweb"]._render("cms_status_message.status_message", {})
+        qw = self.env["ir.qweb"]
+        return qw._render("cms_status_message.status_message", {"env": self.env})
 
     def _html_get_doc(self, content):
-        if not content:
+        if not content.strip():
             return None
         return html.document_fromstring(content)
 
