@@ -9,6 +9,7 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo14-addon-cms_info',
+        'odoo14-addon-cms_status_message',
     ],
     classifiers=[
         'Programming Language :: Python',
